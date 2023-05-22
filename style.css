@@ -86,3 +86,53 @@ input[type=button] , select , option
 {
     font-size: 5vw;
 }
+@media screen and (max-width:800px)
+{
+    .solution h1 
+    {
+        font-size: 3vw;
+    }
+    .solution_container
+    {
+        display: grid;
+        place-content: center;
+        place-items: center;
+    }
+    .card
+    {
+        border: 1px white solid;
+        width: 30vw;
+        height: 33vh;
+        display: grid;
+        place-content: center;
+        place-items: center;
+        align-items: center;
+        font-size: 2vh;
+    }
+    .block
+    {
+        display: grid;
+        place-content: center;
+        place-items: center;
+        align-items: center;
+    }
+    input[type = number]
+    {
+        width: 50vw;
+        height: 5vh;
+    }
+    input[type = button] 
+    {
+        width: 50vw;
+        height: 5vh;
+    }
+    select
+    {
+        width: 20vw;
+        height: 4vh;
+    }
+    .formula
+    {
+        font-size: 10vw;
+    }
+}
