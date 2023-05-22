@@ -86,6 +86,10 @@ input[type=button] , select , option
 {
     font-size: 5vw;
 }
+@keyframes back {
+    0%{clip-path: inset(0 0 0 0);}
+    100%{clip-path: inset(0 0 100% 0);}
+}
 @media screen and (max-width:800px)
 {
     .solution h1 
