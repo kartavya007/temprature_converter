@@ -130,6 +130,7 @@ input[type=button] , select , option
     {
         width: 20vw;
         height: 4vh;
+        margin: 1vw ;
     }
     .formula
     {
