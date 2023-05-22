@@ -101,7 +101,7 @@ input[type=button] , select , option
     .card
     {
         border: 1px white solid;
-        width: 30vw;
+        width: 45vw;
         height: 33vh;
         display: grid;
         place-content: center;
