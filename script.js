@@ -66,3 +66,8 @@ function solve(val , unit)
     document.getElementsByClassName("card")[0].innerHTML = text1 ;
     document.getElementsByClassName("card")[1].innerHTML = text2 ;
 } 
+function back()
+{
+    document.getElementsByClassName("solution")[0].style.display = "none" ;
+    document.getElementsByClassName("container")[0].style.display = "grid" ;
+}
