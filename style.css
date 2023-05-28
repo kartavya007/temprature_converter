@@ -40,3 +40,28 @@ h1
     /* font-family: 'Pacifico', cursive; */
     margin: 2vw;
 }
+@media screen and (max-width:800px)
+{
+    .block
+    {
+        width: 75vw;
+        display: grid;
+        place-content: center;
+        place-items: center;
+        align-items: center;
+    }
+    input
+    {
+        height: 5vh;
+        width: 35vw;
+        margin: 2vw;
+        background-color: transparent;
+        border: 1px solid black;
+        font-size: 2vh;
+        font-weight: 900;
+    }
+    h1 
+    {
+        font-size: 6vw;
+    }
+}
