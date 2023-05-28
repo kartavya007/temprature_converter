@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Merriweather+Sans:wght@500&family=Pacifico&display=swap');
+*
+{
+    margin: 0;
+}
+.container
+{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-content: center;
+    place-items: center;
+    align-items: center;
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/004/747/806/original/bubbles-background-concept-free-video.jpg");
+}
+.block
+{
+    border: 1px solid black;
+    padding: 1vw;
+    border-radius: 5px;
+    /* background-color: 	#f3efef; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.block .inp
+{
+    display: block;
+}
+input
+{
+    height: 5vh;
+    width: 15vw;
+    margin: 2vw;
+    background-color: transparent;
+    border: 1px solid black;
+    font-size: 2vw;
+    font-weight: 900;
+}
+h1
+{
+    font-size: 5vw;
+    /* font-family: 'Pacifico', cursive; */
+    margin: 2vw;
+}
