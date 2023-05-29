@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temprature Converter</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TEMPRATURE CONVERTER</h1>
+        <div class="flex">
+            <div class="block">
+                <div class="inp">
+                    <input type="number" name="" id="inp1" oninput="cal_cel(this.value)" onfocus="formula('C')"> °C
+                </div>
+                <div class="inp">
+                    <input type="number" name="" id="inp2" oninput="cal_far(this.value)"  onfocus="formula('F')"> °F
+                </div>
+                <div class="inp">
+                    <input type="number" name="" id="inp3" oninput="cal_kel(this.value)"  onfocus="formula('K')"> K
+                </div>
+            </div>
+            <div class="formula">
+                <div id="for1">°F = (°C * 9/5) + 32</div>
+                <div id="for2">K = °C + 273.15</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
